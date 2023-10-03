@@ -648,10 +648,10 @@ img {
 .icon-close-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close-button:hover {
+.modal-button:hover .icon-close-button {
   fill: #ffffff;
 }
-.icon-close-button:focus {
+.modal-button:focus .icon-close-button {
   fill: #ffffff;
 }
 
