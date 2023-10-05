@@ -751,7 +751,7 @@ img {
 }
 
 .modal-textarea::placeholder {
-  color: #8e8f99;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .accept-modal-container {
