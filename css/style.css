@@ -733,9 +733,6 @@ img {
 .modal-textarea {
   width: 100%;
   height: 120px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.48px;
   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -748,6 +745,13 @@ img {
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
+}
+
+.modal-textarea::placeholder {
+  color: #8e8f99;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
 }
 
 .accept-modal-container {
@@ -782,6 +786,7 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .accept-icon-modal {
